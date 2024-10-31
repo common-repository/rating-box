@@ -1,0 +1,29 @@
+.rbjs-rating-box{
+	padding: 10px 0;
+}
+	.rbjs-rating-box.style-fontawesome ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+		.rbjs-rating-box li{
+			display: inline;
+			display: inline-block;
+			*zoom: 1;
+			
+			padding: 0;
+			margin: 0 5px 0 0;
+			color: #000;
+			cursor: pointer;
+		}
+		.rbjs-rating-box li.active{
+			color: #f00;
+			color: #ffd600;
+		}
+		.rbjs-rating-box.hover li{
+			color: #000;
+		}
+		.rbjs-rating-box.hover li.hover{
+			color: #f00;
+			color: #ffd600;
+		}
